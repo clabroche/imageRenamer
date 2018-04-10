@@ -32,4 +32,4 @@ By default:
 
 ## Coverage 
 
-[Build Status](https://clabroche.github.io/imageRenamer)
+[Coverage link](https://clabroche.github.io/imageRenamer)
