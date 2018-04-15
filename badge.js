@@ -5,5 +5,5 @@ lcov2badge.badge({
     subject: 'cover'					// default is 'coverage'
 }, function(err, svgBadge) {
   if (err) throw err;
-  fs.writeFileSync('./badge.svg', svgBadge, 'utf-8')
+  fs.writeFileSync('./docs/badge.svg', svgBadge, 'utf-8')
 });

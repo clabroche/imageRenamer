@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/clabroche/imageRenamer.svg?branch=master)](https://travis-ci.org/clabroche/imageRenamer)
-[![Coverage Status](./badge.svg)](https://clabroche.github.io/imageRenamer)
+[![Coverage Status](./docs/badge.svg)](https://clabroche.github.io/imageRenamer)
 
 # Image Renamer 
 
