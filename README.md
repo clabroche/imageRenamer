@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/clabroche/imageRenamer.svg?branch=master)](https://travis-ci.org/clabroche/imageRenamer)
-![alt text](./badge.svg "no exif before")
+[![Coverage Status](./badge.svg)](https://clabroche.github.io/imageRenamer)
 
 # Image Renamer 
 
