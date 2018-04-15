@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/clabroche/imageRenamer.svg?branch=master)](https://travis-ci.org/clabroche/imageRenamer)
+![alt text](./badge.svg "no exif before")
 
 # Image Renamer 
 
@@ -29,7 +30,3 @@ By default:
  - output no date taken metadata => 'out/< modifyDate >.< extension >'
 
 ![alt text](./readme/modify_before.png "With exif no date taken before") => ![alt text](./readme/modify_after.png "With exif no date taken after")
-
-## Coverage 
-
-[Coverage link](https://clabroche.github.io/imageRenamer)
