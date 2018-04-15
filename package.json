@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha",
-    "badge":"node badge.js",
-    "coverage": "nyc report --reporter=html --reporter=lcov && rm -r docs && mv coverage docs && node badge.js"
+    "test": "nyc mocha && npm run coverage",
+    "coverage": "nyc report --reporter=html --reporter=lcov && rm -r docs && mv coverage docs && node readme/badge.js"
   },
   "author": "",
   "license": "ISC",
