@@ -8,7 +8,7 @@ FNF:4
 FNH:4
 FNDA:4,imageRenamer
 FNDA:1,(anonymous_1)
-FNDA:4,(anonymous_2)
+FNDA:3,(anonymous_2)
 FNDA:1,(anonymous_3)
 DA:1,1
 DA:2,1
@@ -27,8 +27,8 @@ DA:20,1
 DA:21,1
 DA:24,1
 DA:25,1
-DA:26,4
-DA:27,4
+DA:26,3
+DA:27,3
 DA:28,3
 DA:29,1
 DA:30,1
@@ -62,7 +62,7 @@ BRDA:12,3,0,1
 BRDA:12,3,1,3
 BRDA:14,4,0,1
 BRDA:14,4,1,3
-BRDA:27,5,0,1
+BRDA:27,5,0,0
 BRDA:27,5,1,3
 BRDA:35,6,0,1
 BRDA:35,6,1,2
@@ -91,5 +91,5 @@ BRDA:52,15,1,1
 BRDA:54,16,0,0
 BRDA:54,16,1,2
 BRF:37
-BRH:33
+BRH:32
 end_of_record

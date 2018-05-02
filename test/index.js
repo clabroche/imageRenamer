@@ -44,8 +44,8 @@ describe('test', function(){
             await fse.remove(pathfs.resolve(currentPath, "out"));
             
             expect(files.length).equal(3)
-            expect(files[0]).contain("2001-04-06_11:51:40_");
-            expect(files[1]).contain("2018-04-11_00:36:09_");
+            expect(files[0]).contain("2001-04-06_11-51-40_");
+            expect(files[1]).contain("2018-04-11_00-36-09_");
 
             expect(badFiles.length).equal(1)
             expect(badFiles[0]).contain("image01713.jpg");

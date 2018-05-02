@@ -50,7 +50,7 @@ imageRenamer.prototype.launch = async function() {
     const hours = date.getUTCHours() < 10 ? `0${date.getUTCHours()}` : date.getUTCHours();
     const minutes = date.getUTCMinutes() < 10 ? `0${date.getUTCMinutes()}` : date.getUTCMinutes();
     const seconds = date.getUTCSeconds() < 10 ? `0${date.getUTCSeconds()}` : date.getUTCSeconds();
-    const newName = date.getUTCFullYear() + "-" + month + "-" + day + "_" + hours + ":" + minutes + ":" + seconds + "_" + (Math.random() * 1000).toFixed(0);
+    const newName = date.getUTCFullYear() + "-" + month + "-" + day + "_" + hours + "-" + minutes + "-" + seconds + "_" + (Math.random() * 1000).toFixed(0);
     if (fse.existsSync( pathfs.resolve(outputFiles, newName + pathfs.extname(file))))
       console.log( pathfs.resolve(outputFiles, newName + pathfs.extname(file)), "exist !: ", path);
     return fse.copy( path, pathfs.resolve(outputFiles, newName + pathfs.extname(file)), { overwrite: false });
