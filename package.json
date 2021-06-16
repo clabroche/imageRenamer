@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha && npm run coverage",
+    "testWatch": "nyc mocha --watch && npm run coverage",
     "coverage": "nyc report --reporter=html --reporter=lcov && rm -r docs && mv coverage docs && node readme/badge.js"
   },
   "author": "",
