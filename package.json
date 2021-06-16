@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "image-renamer": "node app.js"
+  },
   "scripts": {
     "test": "nyc mocha && npm run coverage",
     "testWatch": "nyc mocha --watch && npm run coverage",
