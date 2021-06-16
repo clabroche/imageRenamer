@@ -9,7 +9,7 @@
   "scripts": {
     "test": "nyc mocha && npm run coverage",
     "testWatch": "nyc mocha --watch && npm run coverage",
-    "coverage": "nyc report --reporter=html --reporter=lcov && rm -r docs && mv coverage docs && node readme/badge.js"
+    "coverage": "nyc report --reporter=html --reporter=lcov && rm -rf docs && mv coverage docs && node readme/badge.js"
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "lcov2badge": "^0.1.2",
-    "mocha": "^8.0.1",
+    "mocha": "^9.0.0",
     "nyc": "^15.1.0"
   }
 }

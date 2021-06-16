@@ -2,3 +2,5 @@ node_modules
 .nyc_output
 all
 docs
+coverage
+test/good/out
