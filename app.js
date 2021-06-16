@@ -1,3 +1,4 @@
+#!/bin/env node
 const path = require('path')
 const ImgRenamer = require('./index')
 new ImgRenamer({

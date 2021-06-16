@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "image-renamer": "node app.js"
+    "image-renamer": "app.js"
   },
   "scripts": {
     "test": "nyc mocha && npm run coverage",
